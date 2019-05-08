@@ -1,0 +1,62 @@
+/*
+*Wendy Mayo
+*5/8/2019
+*Project 4 and Girl Develop it
+*/
+
+/* The universal selector */
+*{
+}
+/* Body attributes here */
+body {
+    width:99%;
+    margin: auto;
+    background-color: #FFE1DF;
+    font-family: sans-serif, serif,cursive;
+    color: black;
+}
+
+h2 {
+    text-decoration:  underline;/* the title is underlined*/
+    text-align: left;/* The header should be center */
+    font-family: cursive; /* the head 2 font is fantasy */
+}
+
+h3 {
+    text-decoration:  underline;/* the title is underlined*/
+    font-family: cursive; /* the head 3 font is fantasy */
+}
+
+a:hover, a:focus
+{
+    color:magenta;
+    font-size: 150%;
+}/* when hovered or focused over it will get bigger and change colors */
+
+header{
+    margin-top: .3em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background: #F36871;
+}
+
+footer{
+    font-family: serif;
+}/* the footer will have a different font */
+
+#logo{
+    width:65%; height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}/* logo will get bigger and be center */
+
+#BF{
+    float: right;
+    margin-right: .2em;
+    
+}/* will float to the right side */
+
+#Girls{
+    float: right;
+}/* will float to the right side */
